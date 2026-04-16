@@ -1,11 +1,11 @@
 {
-    "name": "@brightdata/mcp",
+    "name": "@gobii-ai/brightdata-mcp",
     "version": "2.9.4",
     "description": "An MCP interface into the Bright Data toolset",
     "type": "module",
     "main": "./server.js",
     "bin": {
-        "@brightdata/mcp": "./server.js"
+        "@gobii-ai/brightdata-mcp": "./server.js"
     },
     "scripts": {
         "start": "node server.js",
@@ -18,10 +18,10 @@
     "author": "Bright Data",
     "repository": {
         "type": "git",
-        "url": "https://github.com/brightdata/brightdata-mcp.git"
+        "url": "https://github.com/gobii-ai/brightdata-mcp.git"
     },
     "bugs": {
-        "url": "https://github.com/brightdata/brightdata-mcp/issues"
+        "url": "https://github.com/gobii-ai/brightdata-mcp/issues"
     },
     "license": "MIT",
     "dependencies": {
@@ -45,5 +45,5 @@
         "tool_groups.js",
         "prompts.js"
     ],
-    "mcpName": "io.github.brightdata/brightdata-mcp"
+    "mcpName": "io.github.gobii-ai/brightdata-mcp"
 }
