@@ -1,11 +1,11 @@
 {
-    "name": "@gobii-ai/brightdata-mcp",
+    "name": "@mattgreathouse/brightdata-mcp",
     "version": "2.9.4",
     "description": "An MCP interface into the Bright Data toolset",
     "type": "module",
     "main": "./server.js",
     "bin": {
-        "@gobii-ai/brightdata-mcp": "./server.js"
+        "brightdata-mcp": "./server.js"
     },
     "scripts": {
         "start": "node server.js",
@@ -45,5 +45,5 @@
         "tool_groups.js",
         "prompts.js"
     ],
-    "mcpName": "io.github.gobii-ai/brightdata-mcp"
+    "mcpName": "io.github.mattgreathouse/brightdata-mcp"
 }
